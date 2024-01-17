@@ -27,3 +27,6 @@ dynamic = ["version"]
 #version = "0.0.3"
 
 [tool.setuptools_scm]
+
+[tool.pyright]
+ignore = [".venv"]
